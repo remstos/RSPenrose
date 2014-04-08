@@ -183,7 +183,7 @@
 				A5238CD218F4166E008CB754 /* UIViewController+RSPenrose.m */,
 			);
 			name = RSPenrose;
-			path = ../RSPenrose;
+			path = ../../RSPenrose;
 			sourceTree = "<group>";
 		};
 		A5238CD918F41AF3008CB754 /* ViewControllers */ = {

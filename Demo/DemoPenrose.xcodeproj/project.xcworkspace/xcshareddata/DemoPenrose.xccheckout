@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>EE320502-0C20-4C6A-B3CB-4D67ECC26ADF</string>
+	<key>IDESourceControlProjectName</key>
+	<string>DemoPenrose</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>BAC22DE3-F6F9-4F30-885B-BD6B507F17BD</key>
+		<string>https://github.com/KemCake/RSPenrose.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Demo/DemoPenrose.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>BAC22DE3-F6F9-4F30-885B-BD6B507F17BD</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/KemCake/RSPenrose.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>BAC22DE3-F6F9-4F30-885B-BD6B507F17BD</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>BAC22DE3-F6F9-4F30-885B-BD6B507F17BD</string>
+			<key>IDESourceControlWCCName</key>
+			<string>DemoPenrose</string>
+		</dict>
+	</array>
+</dict>
+</plist>
