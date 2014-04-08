@@ -22,6 +22,11 @@
 		A5238CB918F41663008CB754 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5238C9818F41662008CB754 /* UIKit.framework */; };
 		A5238CC118F41663008CB754 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A5238CBF18F41663008CB754 /* InfoPlist.strings */; };
 		A5238CC318F41663008CB754 /* DemoPenroseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5238CC218F41663008CB754 /* DemoPenroseTests.m */; };
+		A5238CD318F4166E008CB754 /* RSPenroseView.m in Sources */ = {isa = PBXBuildFile; fileRef = A5238CCE18F4166E008CB754 /* RSPenroseView.m */; };
+		A5238CD418F4166E008CB754 /* RSPenroseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5238CD018F4166E008CB754 /* RSPenroseViewController.m */; };
+		A5238CD518F4166E008CB754 /* UIViewController+RSPenrose.m in Sources */ = {isa = PBXBuildFile; fileRef = A5238CD218F4166E008CB754 /* UIViewController+RSPenrose.m */; };
+		A5238CD818F41686008CB754 /* RootPenroseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5238CD718F41686008CB754 /* RootPenroseViewController.m */; };
+		A5238CDC18F41B12008CB754 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5238CDB18F41B12008CB754 /* SettingsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +61,16 @@
 		A5238CBE18F41663008CB754 /* DemoPenroseTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DemoPenroseTests-Info.plist"; sourceTree = "<group>"; };
 		A5238CC018F41663008CB754 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A5238CC218F41663008CB754 /* DemoPenroseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoPenroseTests.m; sourceTree = "<group>"; };
+		A5238CCD18F4166E008CB754 /* RSPenroseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSPenroseView.h; sourceTree = "<group>"; };
+		A5238CCE18F4166E008CB754 /* RSPenroseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSPenroseView.m; sourceTree = "<group>"; };
+		A5238CCF18F4166E008CB754 /* RSPenroseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSPenroseViewController.h; sourceTree = "<group>"; };
+		A5238CD018F4166E008CB754 /* RSPenroseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSPenroseViewController.m; sourceTree = "<group>"; };
+		A5238CD118F4166E008CB754 /* UIViewController+RSPenrose.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+RSPenrose.h"; sourceTree = "<group>"; };
+		A5238CD218F4166E008CB754 /* UIViewController+RSPenrose.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+RSPenrose.m"; sourceTree = "<group>"; };
+		A5238CD618F41686008CB754 /* RootPenroseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RootPenroseViewController.h; path = ../RootPenroseViewController.h; sourceTree = "<group>"; };
+		A5238CD718F41686008CB754 /* RootPenroseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RootPenroseViewController.m; path = ../RootPenroseViewController.m; sourceTree = "<group>"; };
+		A5238CDA18F41B12008CB754 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		A5238CDB18F41B12008CB754 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,13 +130,13 @@
 		A5238C9A18F41662008CB754 /* DemoPenrose */ = {
 			isa = PBXGroup;
 			children = (
+				A5238CCC18F4166E008CB754 /* RSPenrose */,
 				A5238CA318F41662008CB754 /* AppDelegate.h */,
 				A5238CA418F41662008CB754 /* AppDelegate.m */,
+				A5238CD618F41686008CB754 /* RootPenroseViewController.h */,
+				A5238CD718F41686008CB754 /* RootPenroseViewController.m */,
 				A5238CA618F41662008CB754 /* Main.storyboard */,
-				A5238CA918F41662008CB754 /* MasterViewController.h */,
-				A5238CAA18F41663008CB754 /* MasterViewController.m */,
-				A5238CAC18F41663008CB754 /* DetailViewController.h */,
-				A5238CAD18F41663008CB754 /* DetailViewController.m */,
+				A5238CD918F41AF3008CB754 /* ViewControllers */,
 				A5238CAF18F41663008CB754 /* Images.xcassets */,
 				A5238C9B18F41662008CB754 /* Supporting Files */,
 			);
@@ -155,6 +170,33 @@
 				A5238CBF18F41663008CB754 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A5238CCC18F4166E008CB754 /* RSPenrose */ = {
+			isa = PBXGroup;
+			children = (
+				A5238CCD18F4166E008CB754 /* RSPenroseView.h */,
+				A5238CCE18F4166E008CB754 /* RSPenroseView.m */,
+				A5238CCF18F4166E008CB754 /* RSPenroseViewController.h */,
+				A5238CD018F4166E008CB754 /* RSPenroseViewController.m */,
+				A5238CD118F4166E008CB754 /* UIViewController+RSPenrose.h */,
+				A5238CD218F4166E008CB754 /* UIViewController+RSPenrose.m */,
+			);
+			name = RSPenrose;
+			path = ../RSPenrose;
+			sourceTree = "<group>";
+		};
+		A5238CD918F41AF3008CB754 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A5238CA918F41662008CB754 /* MasterViewController.h */,
+				A5238CAA18F41663008CB754 /* MasterViewController.m */,
+				A5238CAC18F41663008CB754 /* DetailViewController.h */,
+				A5238CAD18F41663008CB754 /* DetailViewController.m */,
+				A5238CDA18F41B12008CB754 /* SettingsViewController.h */,
+				A5238CDB18F41B12008CB754 /* SettingsViewController.m */,
+			);
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,8 +296,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5238CD418F4166E008CB754 /* RSPenroseViewController.m in Sources */,
 				A5238CA518F41662008CB754 /* AppDelegate.m in Sources */,
 				A5238CAB18F41663008CB754 /* MasterViewController.m in Sources */,
+				A5238CDC18F41B12008CB754 /* SettingsViewController.m in Sources */,
+				A5238CD518F4166E008CB754 /* UIViewController+RSPenrose.m in Sources */,
+				A5238CD318F4166E008CB754 /* RSPenroseView.m in Sources */,
+				A5238CD818F41686008CB754 /* RootPenroseViewController.m in Sources */,
 				A5238CA118F41662008CB754 /* main.m in Sources */,
 				A5238CAE18F41663008CB754 /* DetailViewController.m in Sources */,
 			);
@@ -462,6 +509,7 @@
 				A5238CC818F41663008CB754 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A5238CC918F41663008CB754 /* Build configuration list for PBXNativeTarget "DemoPenroseTests" */ = {
 			isa = XCConfigurationList;
@@ -470,6 +518,7 @@
 				A5238CCB18F41663008CB754 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
