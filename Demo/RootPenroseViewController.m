@@ -54,7 +54,6 @@
     // Initializa main controller
     [self setMainControllerWithStoryboardID:@"FirstVC"];
     [self.penroseView selectSide:0];
-    
 
     [self showTuto];
 }
@@ -86,8 +85,14 @@
             break;
     }
 }
-
-
+-(void)didShowPenrose
+{
+    NSLog(@"Penrose Did Show");
+}
+-(void)didHidePenrose
+{
+    NSLog(@"Penrose Did Hide");
+}
 
 #pragma mark - Penrose Tuto
 -(void)showTuto

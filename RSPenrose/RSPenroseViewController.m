@@ -355,17 +355,22 @@
     CGRect rect = basePenroseRect;
     if(origin)
     {
-        //replace to top
+        //replace to origin
         rect.origin.y = originYOut;
         self.penroseRevealed = NO;
         [[UIApplication sharedApplication] setStatusBarHidden:NO withAnimation:UIStatusBarAnimationSlide];
-        
+        if ([self respondsToSelector:@selector(didShowPenrose)]) {
+            [self didShowPenrose];
+        }
     }
     else
     { //replace to center
         rect.origin.y = (self.view.frame.size.height / 2) - (self.penroseViewContainer.frame.size.height / 2);
         self.penroseRevealed = YES;
         [[UIApplication sharedApplication] setStatusBarHidden:YES withAnimation:UIStatusBarAnimationSlide];
+        if ([self respondsToSelector:@selector(didHidePenrose)]) {
+            [self didHidePenrose];
+        }
     }
     
     [UIView animateWithDuration:_animationDuration animations:^{

@@ -17,8 +17,8 @@ typedef enum _RSPenroseSideAppear {
 @protocol RSPenroseViewControllerDelegate <NSObject>
 @optional
 -(void)didSelectPenroseButtonAtIndex:(int)index;
--(void)didClosePenrose;
-
+-(void)didShowPenrose;
+-(void)didHidePenrose;
 @end
 
 
