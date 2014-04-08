@@ -10,7 +10,9 @@ This is just for fun.
 
 Screenshots
 ---
-![RSPenrose 1]()
+<img src="https://raw.githubusercontent.com/KemCake/RSPenrose/master/Demo/Screenshots/screen.gif" height="330" width="200" align="center" style="margin:10px">
+<img src="https://raw.githubusercontent.com/KemCake/RSPenrose/master/Demo/Screenshots/screenA.png" height="330" width="200" align="center" style="margin:10px">
+<img src="https://raw.githubusercontent.com/KemCake/RSPenrose/master/Demo/Screenshots/screenB.png" height="330" width="200" align="center" style="margin:10px">
 
 How to use 
 ---
