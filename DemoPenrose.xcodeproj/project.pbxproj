@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A5238C9518F41662008CB754 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5238C9418F41662008CB754 /* Foundation.framework */; };
+		A5238C9718F41662008CB754 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5238C9618F41662008CB754 /* CoreGraphics.framework */; };
+		A5238C9918F41662008CB754 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5238C9818F41662008CB754 /* UIKit.framework */; };
+		A5238C9F18F41662008CB754 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A5238C9D18F41662008CB754 /* InfoPlist.strings */; };
+		A5238CA118F41662008CB754 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A5238CA018F41662008CB754 /* main.m */; };
+		A5238CA518F41662008CB754 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A5238CA418F41662008CB754 /* AppDelegate.m */; };
+		A5238CA818F41662008CB754 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5238CA618F41662008CB754 /* Main.storyboard */; };
+		A5238CAB18F41663008CB754 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5238CAA18F41663008CB754 /* MasterViewController.m */; };
+		A5238CAE18F41663008CB754 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5238CAD18F41663008CB754 /* DetailViewController.m */; };
+		A5238CB018F41663008CB754 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5238CAF18F41663008CB754 /* Images.xcassets */; };
+		A5238CB718F41663008CB754 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5238CB618F41663008CB754 /* XCTest.framework */; };
+		A5238CB818F41663008CB754 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5238C9418F41662008CB754 /* Foundation.framework */; };
+		A5238CB918F41663008CB754 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5238C9818F41662008CB754 /* UIKit.framework */; };
+		A5238CC118F41663008CB754 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A5238CBF18F41663008CB754 /* InfoPlist.strings */; };
+		A5238CC318F41663008CB754 /* DemoPenroseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5238CC218F41663008CB754 /* DemoPenroseTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A5238CBA18F41663008CB754 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5238C8918F41662008CB754 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5238C9018F41662008CB754;
+			remoteInfo = DemoPenrose;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A5238C9118F41662008CB754 /* DemoPenrose.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoPenrose.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5238C9418F41662008CB754 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A5238C9618F41662008CB754 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A5238C9818F41662008CB754 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A5238C9C18F41662008CB754 /* DemoPenrose-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DemoPenrose-Info.plist"; sourceTree = "<group>"; };
+		A5238C9E18F41662008CB754 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A5238CA018F41662008CB754 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A5238CA218F41662008CB754 /* DemoPenrose-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DemoPenrose-Prefix.pch"; sourceTree = "<group>"; };
+		A5238CA318F41662008CB754 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A5238CA418F41662008CB754 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A5238CA718F41662008CB754 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A5238CA918F41662008CB754 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		A5238CAA18F41663008CB754 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		A5238CAC18F41663008CB754 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		A5238CAD18F41663008CB754 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		A5238CAF18F41663008CB754 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A5238CB518F41663008CB754 /* DemoPenroseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoPenroseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5238CB618F41663008CB754 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A5238CBE18F41663008CB754 /* DemoPenroseTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DemoPenroseTests-Info.plist"; sourceTree = "<group>"; };
+		A5238CC018F41663008CB754 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A5238CC218F41663008CB754 /* DemoPenroseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoPenroseTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5238C8E18F41662008CB754 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5238C9718F41662008CB754 /* CoreGraphics.framework in Frameworks */,
+				A5238C9918F41662008CB754 /* UIKit.framework in Frameworks */,
+				A5238C9518F41662008CB754 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5238CB218F41663008CB754 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5238CB718F41663008CB754 /* XCTest.framework in Frameworks */,
+				A5238CB918F41663008CB754 /* UIKit.framework in Frameworks */,
+				A5238CB818F41663008CB754 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A5238C8818F41662008CB754 = {
+			isa = PBXGroup;
+			children = (
+				A5238C9A18F41662008CB754 /* DemoPenrose */,
+				A5238CBC18F41663008CB754 /* DemoPenroseTests */,
+				A5238C9318F41662008CB754 /* Frameworks */,
+				A5238C9218F41662008CB754 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A5238C9218F41662008CB754 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5238C9118F41662008CB754 /* DemoPenrose.app */,
+				A5238CB518F41663008CB754 /* DemoPenroseTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5238C9318F41662008CB754 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A5238C9418F41662008CB754 /* Foundation.framework */,
+				A5238C9618F41662008CB754 /* CoreGraphics.framework */,
+				A5238C9818F41662008CB754 /* UIKit.framework */,
+				A5238CB618F41663008CB754 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A5238C9A18F41662008CB754 /* DemoPenrose */ = {
+			isa = PBXGroup;
+			children = (
+				A5238CA318F41662008CB754 /* AppDelegate.h */,
+				A5238CA418F41662008CB754 /* AppDelegate.m */,
+				A5238CA618F41662008CB754 /* Main.storyboard */,
+				A5238CA918F41662008CB754 /* MasterViewController.h */,
+				A5238CAA18F41663008CB754 /* MasterViewController.m */,
+				A5238CAC18F41663008CB754 /* DetailViewController.h */,
+				A5238CAD18F41663008CB754 /* DetailViewController.m */,
+				A5238CAF18F41663008CB754 /* Images.xcassets */,
+				A5238C9B18F41662008CB754 /* Supporting Files */,
+			);
+			path = DemoPenrose;
+			sourceTree = "<group>";
+		};
+		A5238C9B18F41662008CB754 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A5238C9C18F41662008CB754 /* DemoPenrose-Info.plist */,
+				A5238C9D18F41662008CB754 /* InfoPlist.strings */,
+				A5238CA018F41662008CB754 /* main.m */,
+				A5238CA218F41662008CB754 /* DemoPenrose-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A5238CBC18F41663008CB754 /* DemoPenroseTests */ = {
+			isa = PBXGroup;
+			children = (
+				A5238CC218F41663008CB754 /* DemoPenroseTests.m */,
+				A5238CBD18F41663008CB754 /* Supporting Files */,
+			);
+			path = DemoPenroseTests;
+			sourceTree = "<group>";
+		};
+		A5238CBD18F41663008CB754 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A5238CBE18F41663008CB754 /* DemoPenroseTests-Info.plist */,
+				A5238CBF18F41663008CB754 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5238C9018F41662008CB754 /* DemoPenrose */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5238CC618F41663008CB754 /* Build configuration list for PBXNativeTarget "DemoPenrose" */;
+			buildPhases = (
+				A5238C8D18F41662008CB754 /* Sources */,
+				A5238C8E18F41662008CB754 /* Frameworks */,
+				A5238C8F18F41662008CB754 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DemoPenrose;
+			productName = DemoPenrose;
+			productReference = A5238C9118F41662008CB754 /* DemoPenrose.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A5238CB418F41663008CB754 /* DemoPenroseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5238CC918F41663008CB754 /* Build configuration list for PBXNativeTarget "DemoPenroseTests" */;
+			buildPhases = (
+				A5238CB118F41663008CB754 /* Sources */,
+				A5238CB218F41663008CB754 /* Frameworks */,
+				A5238CB318F41663008CB754 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5238CBB18F41663008CB754 /* PBXTargetDependency */,
+			);
+			name = DemoPenroseTests;
+			productName = DemoPenroseTests;
+			productReference = A5238CB518F41663008CB754 /* DemoPenroseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5238C8918F41662008CB754 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Remi Santos";
+				TargetAttributes = {
+					A5238CB418F41663008CB754 = {
+						TestTargetID = A5238C9018F41662008CB754;
+					};
+				};
+			};
+			buildConfigurationList = A5238C8C18F41662008CB754 /* Build configuration list for PBXProject "DemoPenrose" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A5238C8818F41662008CB754;
+			productRefGroup = A5238C9218F41662008CB754 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5238C9018F41662008CB754 /* DemoPenrose */,
+				A5238CB418F41663008CB754 /* DemoPenroseTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5238C8F18F41662008CB754 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5238CB018F41663008CB754 /* Images.xcassets in Resources */,
+				A5238C9F18F41662008CB754 /* InfoPlist.strings in Resources */,
+				A5238CA818F41662008CB754 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5238CB318F41663008CB754 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5238CC118F41663008CB754 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5238C8D18F41662008CB754 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5238CA518F41662008CB754 /* AppDelegate.m in Sources */,
+				A5238CAB18F41663008CB754 /* MasterViewController.m in Sources */,
+				A5238CA118F41662008CB754 /* main.m in Sources */,
+				A5238CAE18F41663008CB754 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5238CB118F41663008CB754 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5238CC318F41663008CB754 /* DemoPenroseTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A5238CBB18F41663008CB754 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5238C9018F41662008CB754 /* DemoPenrose */;
+			targetProxy = A5238CBA18F41663008CB754 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A5238C9D18F41662008CB754 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5238C9E18F41662008CB754 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A5238CA618F41662008CB754 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5238CA718F41662008CB754 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A5238CBF18F41663008CB754 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5238CC018F41663008CB754 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A5238CC418F41663008CB754 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A5238CC518F41663008CB754 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A5238CC718F41663008CB754 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DemoPenrose/DemoPenrose-Prefix.pch";
+				INFOPLIST_FILE = "DemoPenrose/DemoPenrose-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A5238CC818F41663008CB754 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DemoPenrose/DemoPenrose-Prefix.pch";
+				INFOPLIST_FILE = "DemoPenrose/DemoPenrose-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A5238CCA18F41663008CB754 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DemoPenrose.app/DemoPenrose";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DemoPenrose/DemoPenrose-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DemoPenroseTests/DemoPenroseTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A5238CCB18F41663008CB754 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DemoPenrose.app/DemoPenrose";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DemoPenrose/DemoPenrose-Prefix.pch";
+				INFOPLIST_FILE = "DemoPenroseTests/DemoPenroseTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5238C8C18F41662008CB754 /* Build configuration list for PBXProject "DemoPenrose" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5238CC418F41663008CB754 /* Debug */,
+				A5238CC518F41663008CB754 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5238CC618F41663008CB754 /* Build configuration list for PBXNativeTarget "DemoPenrose" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5238CC718F41663008CB754 /* Debug */,
+				A5238CC818F41663008CB754 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A5238CC918F41663008CB754 /* Build configuration list for PBXNativeTarget "DemoPenroseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5238CCA18F41663008CB754 /* Debug */,
+				A5238CCB18F41663008CB754 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A5238C8918F41662008CB754 /* Project object */;
+}
